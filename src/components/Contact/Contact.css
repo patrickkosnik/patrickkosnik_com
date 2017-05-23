@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto 30px auto;
+  bottom: 0;
+  width: 95%;
+}
+.content {
+  width: 100%;
+  vertical-align:top;
+}
+.container h1 {
+  font-weight: 100;
+  margin: 0;
+  padding: 16px 0;
+}
+.cardContainer {
+  box-sizing: border-box;
+  padding: 8px;
+  vertical-align: top;
+  width: 25%;
+  display :inline-block;
+  text-align: center;
+}
+
+.photoCard {
+  display: inline-block;
+  width: 95%;
+  max-width: 250px;
+  height: 250px;
+  background: url('http://patrickkosnik.com/images/contact_img.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.card {
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 2px;
+  display: inline-block;
+  height: 250px;
+  width: 95%;
+  padding: 16px;
+  color: rgba(0,0,0,.87);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.button {
+  width: 88px;
+  padding: 8px 0;
+  border-radius: 2px;
+  margin: 0 auto;
+  background-color: #00dae5;
+  color: #FFF;
+  text-decoration: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.button a {
+    color: #FFF;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 8px 16px;
+}
+
+@media (max-width: 1024px){
+  .cardContainer {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px){
+  .cardContainer {
+    width: 100%;
+    margin: 30px auto 0 auto;
+  }
+}
