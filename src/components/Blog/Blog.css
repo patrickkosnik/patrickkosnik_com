@@ -1,0 +1,4 @@
+.container h1 {
+  margin-left: calc(7vw/ 2);
+  font-weight: 100;
+}

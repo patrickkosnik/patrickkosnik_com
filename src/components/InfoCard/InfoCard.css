@@ -1,0 +1,38 @@
+.card {
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  min-height: 215px;
+  width: 95%;
+  padding: 16px;
+  color: #686868;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.button {
+  width: 88px;
+  padding: 8px 0;
+  border-radius: 2px;
+  margin: 0 auto;
+  background-color: #00dae5;
+  color: #FFF;
+  text-decoration: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.description {
+  min-height: 56px;
+}
+
+.button a {
+    color: #FFF;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 8px 16px;
+}
+
+.card h1 {
+  font-weight: 100;
+}

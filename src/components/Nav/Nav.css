@@ -1,0 +1,77 @@
+.header {
+  display: inline-block;
+  position: absolute;
+  line-height: 24px;
+  top: 0;
+  margin-left: 16px;
+  padding: 18px;
+  font-weight: 100;
+}
+.container {
+  background-color: #00dae5;
+  color: #FFF;
+  margin: 0;
+  height: 60px;
+  padding: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.navList {
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+  height: 24px;
+  list-style: none;
+}
+.navList li {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 16px 0 16px 16px;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.navList a {
+  color: #686868;
+  text-decoration: none;
+  padding: 8px 100px 8px 8px;
+}
+.menu {
+  display: inline-block;
+  fill: #FFF;
+  padding: 18px;
+}
+.menu:hover {
+ fill: #26303f;
+}
+.opened{
+  position: fixed;
+  color: #686868;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  padding-top: 16px;
+  background-color: #E8E8E8;
+  width: 200px;
+  z-index: 101;
+  transition: width 0.3s;
+  font-size: 24px;
+  font-weight: lighter;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.collapsed {
+  position: fixed;
+  width: 0px;
+  top: 60px;
+  bottom: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  z-index: 100;
+}
+li:hover{
+  background-color: #E1E1E1;
+}
+.close {
+  fill: #686868;
+  float: right;
+  margin-right: 16px;
+}

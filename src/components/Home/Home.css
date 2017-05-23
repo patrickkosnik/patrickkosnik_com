@@ -1,0 +1,43 @@
+.container {
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  top: 60px;
+  bottom: 0;
+  padding-top: 32px;
+  width: 95%;
+}
+
+.infoCard {
+  display: inline-block;
+  width: 33.3%;
+  margin-top: 16px;
+}
+
+.photoCard {
+  box-sizing: border-box;
+  color: #FFF;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 100;
+  padding: 36px;
+  width: 98%;
+  margin: 0 auto;
+  height: 40vh;
+  background: url('http://patrickkosnik.com/images/nyc_skyline.jpg') no-repeat 50% 35%;
+  background-size: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+@media (max-width: 768px) {
+  .photoCard {
+    background: url('http://patrickkosnik.com/images/bbridge.jpg') no-repeat 50% 40%;
+    background-size: cover;
+    width: 95%;
+  }
+  .infoCard {
+    width: 100%;
+    margin: 30px auto 0 auto;
+  }
+}
