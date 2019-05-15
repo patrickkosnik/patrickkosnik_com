@@ -1,6 +1,5 @@
 import React from 'react'
 import { HashRouter, Route } from 'react-router-dom'
-import { connect } from 'react-redux'
 import Home from '../components/Home/Home'
 import Blog from '../components/Blog/Blog'
 import Nav from '../components/Nav/Nav'
@@ -20,6 +19,4 @@ const App = ({ selectedItems }) => (
   </HashRouter>
 )
 
-export default connect(
-  ({ selectedItems }) => ({ selectedItems })
-)(App)
+export default App

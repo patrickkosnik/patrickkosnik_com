@@ -24,14 +24,14 @@ const Home = () => {
           url='/#/contact'
         />
       </div>
-      <div className={ styles.infoCard }>
+      {/* <div className={ styles.infoCard }>
         <InfoCard className={ styles.infoCard }
           headerText='Blog'
           infoText='Your typical blog, sharing some of my thoughts about the world'
           buttonText='Blog'
           url='/#/blog'
         />
-      </div>
+      </div> */}
     </div>
   )
 }
