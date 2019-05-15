@@ -24,7 +24,7 @@ const Contact = () => (
         <div className={ styles.card }>
           <h1>LinkedIn</h1>
           <div className={ styles.button }>
-            <a href="http://www.linkedin.com/in/patrick-kosnik-52749469">Go >></a>
+            <a href="http://www.linkedin.com/in/patrick-kosnik-52749469" target="_blank">Go >></a>
           </div>
         </div>
       </div>
