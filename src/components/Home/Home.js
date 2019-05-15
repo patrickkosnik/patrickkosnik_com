@@ -13,7 +13,7 @@ const Home = () => {
           headerText='Resume'
           infoText='Job history, experience, and technical skills'
           buttonText='Resume'
-          url='http://patrickkosnik.com/resources/PatrickKosnikResume.pdf'
+          url='/#/resume'
         />
       </div>
       <div className={ styles.infoCard }>
